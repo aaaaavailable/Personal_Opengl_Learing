@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\introduction">
+      <UniqueIdentifier>{3b24c3d2-462b-405c-8969-f8b1cf5b0abe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -22,7 +25,13 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Hello_Triangl.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\introduction</Filter>
     </ClCompile>
+    <ClCompile Include="Triangle_2.cpp">
+      <Filter>源文件\introduction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>

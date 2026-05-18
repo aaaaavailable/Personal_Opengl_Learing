@@ -136,6 +136,7 @@
     <ClCompile Include="glad.c" />
     <ClCompile Include="Hello_Triangl.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Triangle_2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md" />
